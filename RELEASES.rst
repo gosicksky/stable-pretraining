@@ -4,6 +4,11 @@ Unreleased
 
 **New method**
 
+- ``COSTAR``: self-supervised representations for longitudinal covariates,
+  previous treatments and outcomes, with alternating causal temporal and
+  feature attention, component-wise contrastive learning and optimizer-step
+  EMA. Includes API documentation and unit/smoke tests.
+  Experimental results will be added after the runs and verification are complete.
 - ``PMSN`` (Prior Matching for Siamese Networks): extends ``MSN`` by replacing
   its uniform-prior mean-entropy regulariser with a KL-divergence term against
   an arbitrary prior distribution over prototypes (power-law by default,
