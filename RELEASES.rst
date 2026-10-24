@@ -10,8 +10,7 @@ Unreleased
   covariate, treatment and outcome components, per Meng et al., "COSTAR: Improved
   Temporal Counterfactual Estimation with Self-Supervised Learning"
   (arXiv:2311.00886). Registered in ``stable_pretraining.methods`` and
-  ``METHODS.md``, with MIMIC-III validation code and saved aggregate results
-  under ``benchmarks/mimic3/costar/``.
+  ``METHODS.md``.
 - ``PMSN`` (Prior Matching for Siamese Networks): extends ``MSN`` by replacing
   its uniform-prior mean-entropy regulariser with a KL-divergence term against
   an arbitrary prior distribution over prototypes (power-law by default,
